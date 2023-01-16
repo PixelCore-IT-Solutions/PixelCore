@@ -11755,3 +11755,83 @@ textarea.form-control {
   opacity: 1;
   visibility: visible;
 }
+
+.hidden{
+  display: none;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~          Tailwind CSS          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.tcard .h-24{height: 8rem;}
+.tcard .w-24{width: 8rem;}
+.tcardico{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+  width: auto;
+  height: 1.25rem;
+}
+.tcard a{
+  text-decoration: none;
+  color: #6c757d !important;
+}
+
+.socico{
+  cursor: pointer;
+  transition: all;
+  transition-duration: 200ms;
+  font-size: 22px;
+}
+.socico:hover{
+  color: #ff6e42;
+}
+
+.tcard
+{
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 3rem 3rem;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(243 244 246);
+  border-width: 1px;
+  border-radius: 1rem;
+}
+
+@media (min-width: 640px){
+  .tcard {
+      width: 22rem;
+  }
+}
+
+.cardcont{
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.padd-0{
+  margin: -20px 0 0 0;
+  padding: 0;
+}
+
+.object-cover{
+  object-fit: cover;
+}
+
+.rounded-full{
+  border-radius: 9999px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~          Tailwind CSS End          ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
