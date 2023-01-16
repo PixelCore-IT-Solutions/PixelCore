@@ -11210,7 +11210,8 @@ textarea.form-control {
 }
 
 .navbar .navbar-brand img {
-  width: 60px;
+  height: 50px;
+  width: auto;
 }
 
 .navbar .nav-link {
@@ -11229,7 +11230,7 @@ textarea.form-control {
 }
 
 .navbar.custom-navbar .nav-link:hover {
-  color: #fff;
+  color: #ff6e42;
 }
 
 .navbar.custom-navbar.affix {
@@ -11239,12 +11240,18 @@ textarea.form-control {
   border-bottom: 1px solid #dee2e6;
 }
 
+.navbar.custom-navbar.affix .navbar-brand img {
+  content: url(../imgs/Logo/OrigH.png);
+  height: 50px;
+  width: auto;
+}
+
 .navbar.custom-navbar.affix .nav-link {
   color: #444;
 }
 
 .navbar.custom-navbar.affix .nav-link:hover {
-  color: #000;
+  color: #ff6e42;
 }
 
 .pagination .page-item {
