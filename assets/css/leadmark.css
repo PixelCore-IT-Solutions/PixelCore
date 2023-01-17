@@ -9633,6 +9633,7 @@ button.bg-dark:focus {
   .mb-md-0,
   .my-md-0 {
     margin-bottom: 0 !important;
+    height: 100%;
   }
   .ml-md-0,
   .mx-md-0 {
