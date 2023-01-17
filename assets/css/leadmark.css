@@ -11834,4 +11834,30 @@ textarea.form-control {
   border-radius: 9999px;
 }
 
+#contact a{
+  text-decoration: none;
+  color: #fff !important;
+}
+
+#contact a:hover{
+  color: #ff6e42 !important;
+}
+
+.lhp{
+  line-height: 28px;
+}
+
+.lhp1{
+  line-height: 20px;
+  font-size: 14.5px;
+}
+
+.lhp2{
+  line-height: 26px;
+}
+
+.al{
+  text-align: left;
+}
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~          Tailwind CSS End          ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
