@@ -11861,4 +11861,26 @@ textarea.form-control {
   text-align: left;
 }
 
+.scrolltop .sicon {
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  color: #ff6e42;
+}
+
+.scrolltop {
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  bottom: 30px;
+  right: 90px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: none;
+}
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~          Tailwind CSS End          ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
