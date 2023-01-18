@@ -38,6 +38,10 @@
             height: 8.5rem;
             width: 8.5rem;
         }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
     </style>
 
 </head>
@@ -603,7 +607,7 @@
                     <a href="https://wa.me/+94781557711"><i class="fa-brands fa-whatsapp socico mb-3"></i></a>&nbsp&nbsp
                 </div>
                 <div class="col-md-7">
-                    <form action="https://formspree.io/f/xlekdbld" method="POST">
+                    <form action="https://formspree.io/f/xlekdbld" target="_blank" method="POST" id="frm">
                         <h4 class="mb-5">Drop Us A Line</h4>
                         <div class="form-row">
                             <div class="form-group col-sm-4 mb-5">
@@ -620,7 +624,7 @@
 
                             </div>
                             <div class="form-group col-12 mb-0">
-                                <button type="submit" class="btn btn-primary rounded w-md mt-3">Send</button>
+                                <button type="submit" class="btn btn-primary rounded w-md mt-3" onclick="submitForm()">Send</button>
                             </div>                          
                         </div>                          
                     </form>
@@ -670,6 +674,10 @@
             }
         });
         $(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".top").offset().top},"1000");return false})})
+
+        function submitForm(){
+            document.getElementById('frm').reset()
+        }
     </script>
 
 </body>
