@@ -34,9 +34,19 @@
          padding-top: 20px !important;
          border-radius: 0px;
       }
+      #quote {
+         margin-top: 40px;
+         margin-bottom: -30px;
+      }
+      #bg-height{
+         max-height: auto;
+      }
       @media (min-width: 768px){
          #quote {
-            margin-top: 30px;
+            margin: 0px;
+         }
+         #bg-height{
+            max-height: 90vh;
          }
       }
       @media (min-width: 768px){
@@ -72,18 +82,14 @@
       .row>* {
          max-width: 94%;
       }
-      #quote>* {
-         margin-top: 0px;
-      }
       .inner-card {
          margin: 20px 0px 20px 0px;
       }
     </style>
 </head>
 <body>
-    <div class="container card-0 justify-content-center " style="max-width: 100% !important;
-">
-        <div class="card-body px-sm-4 px-0">
+    <div class="container card-0 justify-content-center " style="max-width: 100% !important;min-height: 100vh !important;">
+        <div class="card-body px-sm-4 px-0" id="bg-height">
            <div class="row justify-content-center mb-5" style="margin-bottom: 0 !important;">
               <div class="mb-5 col-md-10 col" style="position: absolute;top: 20px;left: 20px;">
                  <img src="../assets/imgs/logo/Orig-WhiteH.png" width="auto" height="50px">
@@ -94,7 +100,7 @@
            </div>
            <div class="row justify-content-center round" style="transform: scale(0.85);position: relative;top: -45px;">
               <div class="col-lg-10 col-md-12 ">
-                 <div class="card shadow-lg card-1" style="border-radius: 20px;">
+                 <div class="card shadow-lg card-1" style="border-radius: 20px;margin-bottom:0">
                     <form class="card-body inner-card" action="https://formspree.io/f/xdovkljj" method="post" autocomplete="off">
                        <div class="row justify-content-center">
                           <div class="col-lg-5 col-md-6 col-sm-12">
