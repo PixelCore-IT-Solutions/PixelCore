@@ -119,3 +119,15 @@ button:focus{
     background-color: #ff3c00 !important;
     border-color: #ff5825 !important;
 }
+
+.btn-outline-primary {
+    color: #ff6e42 !important;
+    border-color: #ff6e42 !important;
+}
+  
+.btn-outline-primary:hover {
+    background-color: initial !important;
+    color: #fe3b00 !important;
+    border-color: #ff3b00 !important;
+    box-shadow: 0 0 2px 0px;
+}

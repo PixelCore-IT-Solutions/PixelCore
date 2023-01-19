@@ -711,8 +711,10 @@
         });
         $(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".top").offset().top},"1000");return false})})
 
-        function submitForm(){
-            //document.getElementById('frm').reset()
+        window.onbeforeunload = () => {
+            for(const form of document.getElementsByTagName('form')) {
+                form.reset();
+            }
         }
     </script>
 
