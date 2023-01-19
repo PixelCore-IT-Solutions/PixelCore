@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
-
     <title>Quotation Request | PixelCore</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/imgs/favicon_io/apple-touch-icon.png">
@@ -24,21 +24,69 @@
     
     <meta property="og:image" content="https://res.cloudinary.com/djbtxynic/image/upload/v1674061324/OGImg_ta5oth.jpg">
     <meta name="twitter:image" content="https://res.cloudinary.com/djbtxynic/image/upload/v1674061324/OGImg_ta5oth.jpg">
+
+    <title>Quotation Request</title>
+    <style>
+      .card-0{
+         margin:0;
+      }
+      .container {
+         padding-top: 20px !important;
+         border-radius: 0px;
+      }
+      @media (min-width: 768px){
+         .col-md-12 {
+            flex: 0 0 auto;
+            width: 94%;
+         }
+      }
+      @media (min-width: 992px){
+         .col-lg-10 {
+            flex: 0 0 auto;
+            width: 80%;
+         }
+      }
+      @media (min-width: 1200px){
+         .col-lg-10 {
+            flex: 0 0 auto;
+            width: 60%;
+         }
+      }
+      @media (min-width: 992px){
+         .col-lg-6 {
+            flex: 0 0 auto;
+            width: 47%;
+         }
+      }
+      @media (min-width: 768px){
+         .col-md-6 {
+            flex: 0 0 auto;
+            width: 47%;
+         }
+      }
+      .row>* {
+         max-width: 94%;
+      }
+      .inner-card {
+         margin: 20px 0px 20px 0px;
+      }
+    </style>
 </head>
 <body>
-    <div class="container card-0 justify-content-center ">
+    <div class="container card-0 justify-content-center " style="max-width: 100% !important;
+">
         <div class="card-body px-sm-4 px-0">
-           <div class="row justify-content-center mb-5">
-              <div class="mb-5 col-md-10 col">
-                 <img src="../assets/imgs/logo/Orig-WhiteH.png" width="auto" height="80px">
+           <div class="row justify-content-center mb-5" style="margin-bottom: 0 !important;">
+              <div class="mb-5 col-md-10 col" style="position: fixed;top: 20px;left: 20px;">
+                 <img src="../assets/imgs/logo/Orig-WhiteH.png" width="auto" height="50px">
               </div>
               <div class="col-md-10 col">
-                 <h1 class="font-weight-bold ml-md-0 mx-auto text-center text-sm-left" style="font-size: 50px !important;"> Request a Quote </h1>
+                 <h1 class="font-weight-bold ml-md-0 mx-auto text-center text-sm-left" style="font-size: 30px !important;"> Request a Quote </h1>
               </div>
            </div>
-           <div class="row justify-content-center round">
+           <div class="row justify-content-center round" style="transform: scale(0.85);position: relative;top: -45px;">
               <div class="col-lg-10 col-md-12 ">
-                 <div class="card shadow-lg card-1">
+                 <div class="card shadow-lg card-1" style="border-radius: 20px;">
                     <form class="card-body inner-card" action="https://formspree.io/f/xdovkljj" method="post" autocomplete="off">
                        <div class="row justify-content-center">
                           <div class="col-lg-5 col-md-6 col-sm-12">
@@ -63,7 +111,7 @@
                           </div>
                        </div>
                        <div class="row justify-content-center">
-                          <div class="col-md-12 col-lg-10 col-12">
+                          <div class="col-md-12 col-lg-12 col-12">
                              <div class="form-group"> <label for="exampleFormControlTextarea2">Requirement Specification*</label> <textarea class="form-control1 rounded-0" id="exampleFormControlTextarea2" rows="5" required name="requirements"></textarea></div>
                              <div class="mb-2 mt-4">
                                 <div class="text-right" style="display:inline-block;"><button type="submit" class="btn btn-primary btn-block"><small class="font-weight-bold">Request a Quote</small></button> </div>
@@ -87,7 +135,7 @@
          }
      </script>
    <!--Start of Tawk.to Script-->
-     <script type="text/javascript">
+   <script type="text/javascript">
       var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
       (function(){
       var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
