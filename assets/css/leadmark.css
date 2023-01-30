@@ -11874,8 +11874,8 @@ textarea.form-control {
   position: fixed;
   align-items: center;
   justify-content: center;
-  bottom: 50px;
-  right: 125px;
+  bottom: 50px !important;
+  right: 125px !important;
   width: 30px;
   height: 30px;
   border-radius: 50%;
