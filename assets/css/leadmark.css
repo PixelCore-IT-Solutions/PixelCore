@@ -6928,13 +6928,13 @@ a.close.disabled {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 15%;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 5%;
   color: #fff;
   text-align: center;
   opacity: 0.5;
@@ -6960,11 +6960,11 @@ a.close.disabled {
 }
 
 .carousel-control-prev {
-  left: -65px;
+  left: -40px;
 }
 
 .carousel-control-next {
-  right: -65px;
+  right: -40px;
 }
 
 .carousel-control-prev-icon,
