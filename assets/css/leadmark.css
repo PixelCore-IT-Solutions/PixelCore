@@ -11763,14 +11763,14 @@ textarea.form-control {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~          Tailwind CSS          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-.tcard .h-24{height: 8rem;}
-.tcard .w-24{width: 8rem;}
+.tcard .h-24{height: 6rem;}
+.tcard .w-24{width: 6rem;}
 .tcardico{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  margin-top: 0.5rem;
+  margin-top: -0.5rem;
   width: auto;
   height: 1.25rem;
 }
@@ -11783,7 +11783,7 @@ textarea.form-control {
   cursor: pointer;
   transition: all;
   transition-duration: 200ms;
-  font-size: 22px;
+  font-size: 18px;
 }
 .socico:hover{
   color: #ff6e42;
@@ -11796,8 +11796,8 @@ textarea.form-control {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  padding: 3rem 3rem;
+  gap: 1rem;
+  padding: 1rem 1rem;
   width: 100%;
   height: 100%;
   background-color: rgb(243 244 246);
@@ -11807,7 +11807,7 @@ textarea.form-control {
 
 @media (min-width: 640px){
   .tcard {
-      width: 22rem;
+      width: 16rem;
   }
 }
 
