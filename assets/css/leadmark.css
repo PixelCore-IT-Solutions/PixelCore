@@ -11820,7 +11820,7 @@ textarea.form-control {
   flex-wrap: wrap;
   box-sizing: border-box;
   padding: 0;
-  height: 290px;
+  /* height: 290px; */
 }
 
 .padd-0{
